@@ -1,0 +1,47 @@
+body{
+  box-sizing: border-box;
+  font-style: italic;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.banner{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.banner video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.603);
+  font-size: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffffdf;
+  line-height: 50vh;
+  mix-blend-mode: screen;
+}
+p button{
+  text-align: center;
+  width: 250px;
+  height: 100px;
+  background-color: rgb(50, 42, 126);
+  border-radius: 20px;
+  font-size: 30px;
+  color: white;
+  border: 5px solid white;
+}
